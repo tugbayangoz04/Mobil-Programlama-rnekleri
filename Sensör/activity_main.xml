@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        
+        <TextView
+            android:id="@+id/textSensorData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sensör verileri burada gösterilecek"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:padding="16dp"
+            android:gravity="center" />
+
+      
+        <Button
+            android:id="@+id/btnAccelerometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accelerometer Sensor"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginTop="12dp" />
+
+        
+        <Button
+            android:id="@+id/btnGyroscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gyroscope Sensor"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginTop="12dp" />
+
+        
+        <Button
+            android:id="@+id/btnHumidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Humidity Sensor"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginTop="12dp" />
+
+        
+        <Button
+            android:id="@+id/btnLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Light Sensor"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginTop="12dp" />
+
+        
+        <Button
+            android:id="@+id/btnMagnetometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Magnetometer Sensor"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginTop="12dp" />
+
+        
+        <Button
+            android:id="@+id/btnPressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pressure Sensor"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginTop="12dp" />
+
+        
+        <Button
+            android:id="@+id/btnProximity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proximity Sensor"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginTop="12dp" />
+
+        
+        <Button
+            android:id="@+id/btnThermometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thermometer Sensor"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+</ScrollView>
